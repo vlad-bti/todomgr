@@ -1,0 +1,13 @@
+app:
+  name: 'test3'
+  version: '1.0.0'
+
+http:
+  port: '8080'
+
+logger:
+  log_level: 'debug'
+  rollbar_env: 'test3'
+
+mysql:
+  pool_max: 2
